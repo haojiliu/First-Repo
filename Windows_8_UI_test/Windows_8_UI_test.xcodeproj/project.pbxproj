@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84454EF3162E373700350197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454EF2162E373700350197 /* UIKit.framework */; };
+		84454EF5162E373700350197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454EF4162E373700350197 /* Foundation.framework */; };
+		84454EF7162E373700350197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454EF6162E373700350197 /* CoreGraphics.framework */; };
+		84454EFD162E373700350197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84454EFB162E373700350197 /* InfoPlist.strings */; };
+		84454EFF162E373700350197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454EFE162E373700350197 /* main.m */; };
+		84454F03162E373700350197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454F02162E373700350197 /* AppDelegate.m */; };
+		84454F06162E373700350197 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454F05162E373700350197 /* RootViewController.m */; };
+		84454F09162E373700350197 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454F08162E373700350197 /* DataViewController.m */; };
+		84454F0C162E373700350197 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454F0B162E373700350197 /* ModelController.m */; };
+		84454F0F162E373700350197 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84454F0D162E373700350197 /* MainStoryboard.storyboard */; };
+		84454F17162E373700350197 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454F16162E373700350197 /* SenTestingKit.framework */; };
+		84454F18162E373700350197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454EF2162E373700350197 /* UIKit.framework */; };
+		84454F19162E373700350197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84454EF4162E373700350197 /* Foundation.framework */; };
+		84454F21162E373700350197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84454F1F162E373700350197 /* InfoPlist.strings */; };
+		84454F24162E373700350197 /* Windows_8_UI_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84454F23162E373700350197 /* Windows_8_UI_testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84454F1A162E373700350197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84454EE5162E373700350197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84454EED162E373700350197;
+			remoteInfo = Windows_8_UI_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84454EEE162E373700350197 /* Windows_8_UI_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windows_8_UI_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84454EF2162E373700350197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84454EF4162E373700350197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84454EF6162E373700350197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84454EFA162E373700350197 /* Windows_8_UI_test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Windows_8_UI_test-Info.plist"; sourceTree = "<group>"; };
+		84454EFC162E373700350197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84454EFE162E373700350197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84454F00162E373700350197 /* Windows_8_UI_test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Windows_8_UI_test-Prefix.pch"; sourceTree = "<group>"; };
+		84454F01162E373700350197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84454F02162E373700350197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84454F04162E373700350197 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84454F05162E373700350197 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84454F07162E373700350197 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		84454F08162E373700350197 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		84454F0A162E373700350197 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		84454F0B162E373700350197 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		84454F0E162E373700350197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84454F15162E373700350197 /* Windows_8_UI_testTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windows_8_UI_testTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84454F16162E373700350197 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84454F1E162E373700350197 /* Windows_8_UI_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Windows_8_UI_testTests-Info.plist"; sourceTree = "<group>"; };
+		84454F20162E373700350197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84454F22162E373700350197 /* Windows_8_UI_testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Windows_8_UI_testTests.h; sourceTree = "<group>"; };
+		84454F23162E373700350197 /* Windows_8_UI_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Windows_8_UI_testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84454EEB162E373700350197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454EF3162E373700350197 /* UIKit.framework in Frameworks */,
+				84454EF5162E373700350197 /* Foundation.framework in Frameworks */,
+				84454EF7162E373700350197 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84454F11162E373700350197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454F17162E373700350197 /* SenTestingKit.framework in Frameworks */,
+				84454F18162E373700350197 /* UIKit.framework in Frameworks */,
+				84454F19162E373700350197 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84454EE3162E373700350197 = {
+			isa = PBXGroup;
+			children = (
+				84454EF8162E373700350197 /* Windows_8_UI_test */,
+				84454F1C162E373700350197 /* Windows_8_UI_testTests */,
+				84454EF1162E373700350197 /* Frameworks */,
+				84454EEF162E373700350197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84454EEF162E373700350197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84454EEE162E373700350197 /* Windows_8_UI_test.app */,
+				84454F15162E373700350197 /* Windows_8_UI_testTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84454EF1162E373700350197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84454EF2162E373700350197 /* UIKit.framework */,
+				84454EF4162E373700350197 /* Foundation.framework */,
+				84454EF6162E373700350197 /* CoreGraphics.framework */,
+				84454F16162E373700350197 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84454EF8162E373700350197 /* Windows_8_UI_test */ = {
+			isa = PBXGroup;
+			children = (
+				84454F01162E373700350197 /* AppDelegate.h */,
+				84454F02162E373700350197 /* AppDelegate.m */,
+				84454F04162E373700350197 /* RootViewController.h */,
+				84454F05162E373700350197 /* RootViewController.m */,
+				84454F07162E373700350197 /* DataViewController.h */,
+				84454F08162E373700350197 /* DataViewController.m */,
+				84454F0A162E373700350197 /* ModelController.h */,
+				84454F0B162E373700350197 /* ModelController.m */,
+				84454F0D162E373700350197 /* MainStoryboard.storyboard */,
+				84454EF9162E373700350197 /* Supporting Files */,
+			);
+			path = Windows_8_UI_test;
+			sourceTree = "<group>";
+		};
+		84454EF9162E373700350197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84454EFA162E373700350197 /* Windows_8_UI_test-Info.plist */,
+				84454EFB162E373700350197 /* InfoPlist.strings */,
+				84454EFE162E373700350197 /* main.m */,
+				84454F00162E373700350197 /* Windows_8_UI_test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84454F1C162E373700350197 /* Windows_8_UI_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				84454F22162E373700350197 /* Windows_8_UI_testTests.h */,
+				84454F23162E373700350197 /* Windows_8_UI_testTests.m */,
+				84454F1D162E373700350197 /* Supporting Files */,
+			);
+			path = Windows_8_UI_testTests;
+			sourceTree = "<group>";
+		};
+		84454F1D162E373700350197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84454F1E162E373700350197 /* Windows_8_UI_testTests-Info.plist */,
+				84454F1F162E373700350197 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84454EED162E373700350197 /* Windows_8_UI_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84454F27162E373700350197 /* Build configuration list for PBXNativeTarget "Windows_8_UI_test" */;
+			buildPhases = (
+				84454EEA162E373700350197 /* Sources */,
+				84454EEB162E373700350197 /* Frameworks */,
+				84454EEC162E373700350197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Windows_8_UI_test;
+			productName = Windows_8_UI_test;
+			productReference = 84454EEE162E373700350197 /* Windows_8_UI_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84454F14162E373700350197 /* Windows_8_UI_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84454F2A162E373700350197 /* Build configuration list for PBXNativeTarget "Windows_8_UI_testTests" */;
+			buildPhases = (
+				84454F10162E373700350197 /* Sources */,
+				84454F11162E373700350197 /* Frameworks */,
+				84454F12162E373700350197 /* Resources */,
+				84454F13162E373700350197 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84454F1B162E373700350197 /* PBXTargetDependency */,
+			);
+			name = Windows_8_UI_testTests;
+			productName = Windows_8_UI_testTests;
+			productReference = 84454F15162E373700350197 /* Windows_8_UI_testTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84454EE5162E373700350197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "David Liu [刘昊骥]";
+			};
+			buildConfigurationList = 84454EE8162E373700350197 /* Build configuration list for PBXProject "Windows_8_UI_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84454EE3162E373700350197;
+			productRefGroup = 84454EEF162E373700350197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84454EED162E373700350197 /* Windows_8_UI_test */,
+				84454F14162E373700350197 /* Windows_8_UI_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84454EEC162E373700350197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454EFD162E373700350197 /* InfoPlist.strings in Resources */,
+				84454F0F162E373700350197 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84454F12162E373700350197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454F21162E373700350197 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84454F13162E373700350197 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84454EEA162E373700350197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454EFF162E373700350197 /* main.m in Sources */,
+				84454F03162E373700350197 /* AppDelegate.m in Sources */,
+				84454F06162E373700350197 /* RootViewController.m in Sources */,
+				84454F09162E373700350197 /* DataViewController.m in Sources */,
+				84454F0C162E373700350197 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84454F10162E373700350197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84454F24162E373700350197 /* Windows_8_UI_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84454F1B162E373700350197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84454EED162E373700350197 /* Windows_8_UI_test */;
+			targetProxy = 84454F1A162E373700350197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84454EFB162E373700350197 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84454EFC162E373700350197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84454F0D162E373700350197 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84454F0E162E373700350197 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84454F1F162E373700350197 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84454F20162E373700350197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84454F25162E373700350197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84454F26162E373700350197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84454F28162E373700350197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Windows_8_UI_test/Windows_8_UI_test-Prefix.pch";
+				INFOPLIST_FILE = "Windows_8_UI_test/Windows_8_UI_test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84454F29162E373700350197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Windows_8_UI_test/Windows_8_UI_test-Prefix.pch";
+				INFOPLIST_FILE = "Windows_8_UI_test/Windows_8_UI_test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84454F2B162E373700350197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Windows_8_UI_test.app/Windows_8_UI_test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Windows_8_UI_test/Windows_8_UI_test-Prefix.pch";
+				INFOPLIST_FILE = "Windows_8_UI_testTests/Windows_8_UI_testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84454F2C162E373700350197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Windows_8_UI_test.app/Windows_8_UI_test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Windows_8_UI_test/Windows_8_UI_test-Prefix.pch";
+				INFOPLIST_FILE = "Windows_8_UI_testTests/Windows_8_UI_testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84454EE8162E373700350197 /* Build configuration list for PBXProject "Windows_8_UI_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84454F25162E373700350197 /* Debug */,
+				84454F26162E373700350197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84454F27162E373700350197 /* Build configuration list for PBXNativeTarget "Windows_8_UI_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84454F28162E373700350197 /* Debug */,
+				84454F29162E373700350197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84454F2A162E373700350197 /* Build configuration list for PBXNativeTarget "Windows_8_UI_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84454F2B162E373700350197 /* Debug */,
+				84454F2C162E373700350197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84454EE5162E373700350197 /* Project object */;
+}
